@@ -14,7 +14,7 @@ build:
 
   parallel:
     matrix:
-      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, jammy, noble]
+      - UBUNTU_VERSION: [trusty, xenial, bionic, focal, jammy, noble, oracular]
 
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_PIPELINE_SOURCE == "schedule"
